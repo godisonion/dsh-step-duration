@@ -33,16 +33,16 @@ github:godisonion/dsh-step-duration#v1.0.0
 
 ### 从插件市场安装
 
-本插件可以通过自定义插件市场的 **Discover** 页面安装。由于 DSH 目前没有公开的 Official 市场提交流程，用户需要先添加本插件的市场索引：
+本插件可以通过自定义插件市场的 **Discover（发现）** 页面安装。新版 DSH 的“发现”是“插件”页中“已安装”旁边的第二个标签页。由于 DSH 目前没有公开的 Official 市场提交流程，用户需要先添加本插件的市场索引：
 
-1. 打开 **Plugins → Experimental plugins → More**。
-2. 启用 **Custom plugin markets**。
-3. 打开 **Discover → Add index source**。
+1. 打开 **插件 → 实验性插件**。
+2. 启用 **自定义插件市场**。
+3. 点击 **发现** tab。
 4. 添加以下索引地址：
    ```text
    https://godisonion.github.io/dsh-step-duration/index.json
    ```
-5. 在 Discover 中找到 **DSH 工作步骤实时耗时显示**，选择安装。
+5. 找到 **DSH 工作步骤实时耗时显示**，选择安装。
 
 如果索引地址尚未发布或无法访问，请先使用上面的 GitHub 安装方式。
 
@@ -116,11 +116,11 @@ You can also ask an agent with `plugin_manager` to install that spec. Pin a rele
 
 ### Install from a plugin market
 
-This plugin can be installed from the **Discover** page of a custom plugin market. DSH currently has no public submission process for the built-in Official catalog, so users must add this plugin's market index first:
+This plugin can be installed from the **Discover** page of a custom plugin market. In current DSH versions, **Discover** appears as the second tab on the **Plugins** page, next to **Installed**, after the custom plugin market bundle is enabled. DSH currently has no public submission process for the built-in Official catalog, so users must add this plugin's market index first:
 
-1. Open **Plugins → Experimental plugins → More**.
+1. Open **Plugins → Experimental plugins**.
 2. Enable **Custom plugin markets**.
-3. Open **Discover → Add index source**.
+3. Click the **Discover** tab.
 4. Add:
    ```text
    https://godisonion.github.io/dsh-step-duration/index.json
