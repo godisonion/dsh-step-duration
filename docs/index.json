@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Step Duration",
+    "zh": "DSH 工作步骤实时耗时显示"
+  },
+  "plugins": [
+    {
+      "name": "@godisonion/dsh-step-duration",
+      "title": {
+        "en": "DSH Step Duration",
+        "zh": "DSH 工作步骤实时耗时显示"
+      },
+      "description": {
+        "en": "Shows each model step's live and final duration in Work details.",
+        "zh": "在工作详情中显示每个模型步骤的实时和最终耗时。"
+      },
+      "icon": "icons/step-duration.svg",
+      "author": "godisonion",
+      "homepage": "https://github.com/godisonion/dsh-step-duration#readme",
+      "repository": {
+        "url": "https://github.com/godisonion/dsh-step-duration"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792396021,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/godisonion/dsh-step-duration",
+            "commit": "3a3c74d8d9a5179ebc6f7c80d3ba04f270d3cc56"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
