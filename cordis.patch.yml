@@ -1,0 +1,3 @@
+- insert:
+    - id: step-duration
+      name: '@godisonion/dsh-step-duration'

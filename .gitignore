@@ -1,0 +1,11 @@
+node_modules/
+pnpm-debug.log*
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.zip
+*.sha256
+PUBLISHING.md

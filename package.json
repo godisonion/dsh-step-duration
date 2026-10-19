@@ -1,0 +1,46 @@
+{
+  "name": "@godisonion/dsh-step-duration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shows each model step's live and final duration in the DSH Chat work details.",
+  "license": "MIT",
+  "repository": "github:godisonion/dsh-step-duration",
+  "homepage": "https://github.com/godisonion/dsh-step-duration#readme",
+  "bugs": "https://github.com/godisonion/dsh-step-duration/issues",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "step-duration",
+    "work-details"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

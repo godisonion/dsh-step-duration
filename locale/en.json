@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Step Duration",
+    "description": "Shows each model step's live and final duration in the Work details view."
+  }
+}
